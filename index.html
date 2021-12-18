@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>aka-Azka</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/icofont.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"> 
+    <link rel="stylesheet" href="css/704.css">
+</head>
+<body>
+
+    <!----------------------- Settings Box  --------------------------------------->
+
+    <div class="settings-box">
+        <i class="icofont-gear icofont-2x"></i>
+        <div class="settings-container">
+            <div class="option-box color-option">
+                <h4>Color Options</h4>
+                <ul class="color-list">
+                    <li class="active" data-color="#ff9800"></li>
+                    <li data-color="#dc143c"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03a9f4"></li>
+                    <li data-color="#4caf50"></li>
+                </ul>
+            </div>
+            <div class="option-box background-option">
+                <h4>Random Background</h4>
+                <span class="yes active" data-background="yes">Yes</span>
+                <span class="no" data-background="no">No</span>
+            </div>
+
+            <div class="option-box bullets-option">
+                <h4>Show Bullets</h4>
+                <span class="yes active" data-bullets="yes">Yes</span>
+                <span class="no" data-bullets="no">No</span>
+            </div>
+
+            <button class="reset-options">Reset Options</button>
+        </div>
+    </div>
+
+    <!------------------------- Nav Bullets ----------------------------------->
+
+    <div class="nav-bullets">
+
+        <div class="bullet" data-section=".about-us">           
+            <div class="bullet-name">About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="bullet-name">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallary">
+            <div class="bullet-name">Our Gallary</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="bullet-name">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".feature">
+            <div class="bullet-name">Our Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="bullet-name">Testimonials</div>
+        </div>
+        <div class="bullet" data-section=".contact">
+            <div class="bullet-name">Contact</div>
+        </div>
+    </div>
+
+    <!------------------------- landing page ----------------------------------->
+
+
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header">
+                <div class="logo">aka-Azka</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" data-section=".about-us" class="active"> About</a></li>
+                        <li><a href="#" data-section=".skills"> Skills</a></li>
+                        <li><a href="#" data-section=".gallary"> Gallary</a></li>
+                        <li><a href="#" data-section=".timeline"> Timeline</a></li>
+                        <li><a href="#" data-section=".feature"> Features</a></li>
+                        <li><a href="#" data-section=".testimonials"> Testimonials</a></li>
+                        <li><a href="#" data-section=".contact"> Contact Us</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+
+            </div>
+            <div class="intro">
+                <h1>We Are <span>Creative</span> Agency</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit, sit amet consectetur adipisicing elit.  
+                </p>
+            </div>
+        </div>
+  
+    </div>
+
+    <!------------------------- About Us ----------------------------------->
+
+        <div class="about-us">
+            <div class="container">
+                <div class="info">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur
+                       adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        A ab nulla modi odit temporibus, dolores saepe voluptatibus.
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="images/summer.jpg">
+                </div>
+            </div>
+        </div>
+
+    <!------------------------- Skills  ----------------------------------->
+
+    <div class="skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skill-box">
+                <h3>HTML</h3>
+                <div class="progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h3>CSS</h3>
+                <div class="progress">
+                        <span data-progress="90%"></span>
+                    </div>
+            </div>
+            <div class="skill-box">
+                <h3>JAVA SCRIPT</h3>
+                <div class="progress">
+                        <span data-progress="70%"></span>
+                    </div>
+            </div>
+            <div class="skill-box">
+                <h3>REACT JS</h3>
+                <div class="progress">
+                        <span data-progress="70%"></span>
+                    </div>
+            </div>
+            <div class="skill-box">
+                <h3>NODE JS</h3>
+                <div class="progress">
+                        <span data-progress="60%"></span>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------- Gallary ----------------------------------->
+
+    <div class="gallary">
+        <div class="container">
+            <h2>Our Gallary</h2>
+            <div class="images-box">
+                <img src="images/gallary/01.jpg" alt="Image #1">
+                <img src="images/gallary/02.jpg" alt="Image #2">
+                <img src="images/gallary/03.jpg" alt="Image #3">
+                <img src="images/gallary/04.jpg" alt="Image #4">
+                <img src="images/gallary/05.jpg">
+                <img src="images/gallary/06.jpg">
+                <img src="images/gallary/07.jpg">
+                <img src="images/gallary/08.jpg">
+
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------- Time Line ----------------------------------->
+
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2020</div>
+
+                <div class="left">
+                    <div class="box-content">
+                        <h3>Project X</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ratione vel nulla sunt rerum,
+                           iusto pariatur, quisquam ea tempora obcaecati sit doloremque,
+                        </p>
+                    </div>
+                </div>
+                            <div class="clearfix"></div>
+                <div class="right">
+                    <div class="box-content">
+                        <h3>Project Y</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ratione vel nulla sunt rerum,
+                            iusto pariatur, quisquam ea tempora obcaecati sit doloremque,
+                        </p>
+                    </div>
+                </div>
+                          <div class="clearfix"></div>
+
+                <div class="year">2019</div>
+
+                <div class="left">
+                        <div class="box-content">
+                            <h3>Project Z</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ratione vel nulla sunt rerum,
+                               iusto pariatur, quisquam ea tempora obcaecati sit doloremque,
+                            </p>
+                        </div>
+                    </div>
+                             <div class="clearfix"></div>
+
+                    <div class="left">
+                        <div class="box-content">
+                            <h3>Project Q</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ratione vel nulla sunt rerum,
+                                iusto pariatur, quisquam ea tempora obcaecati sit doloremque,
+                            </p>
+                        </div>
+                    </div>
+            </div>        
+        </div>
+    </div>
+
+     <!------------------------- Our Feature ----------------------------------->
+
+    <div class="feature">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="feat-box">
+                
+                <div class="feat">
+                    <img src="images/work_01.png">
+                    <h4>Responsive Design</h4>
+                    <p>Dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+
+                <div class="feat">
+                    <img src="images/work_02.png">
+                    <h4>Smart Designs</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+
+                <div class="feat">
+                    <img src="images/work_03.png">
+                    <h4>Safe and Secured</h4>
+                    <p>consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+
+                <div class="feat">
+                    <img src="images/work_04.png">
+                    <h4>Cross Platform</h4>
+                    <p>consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+
+                <div class="feat">
+                    <img src="images/work_05.png">
+                    <h4>Pure Talant</h4>
+                    <p>Dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+
+                <div class="feat">
+                    <img src="images/work_06.png">
+                    <h4>Technical Support</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------- Testimonials ----------------------------------->
+
+    <div class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testi-box">
+                <p> " veritatis itaque distinctio mollitia nulla quae in minima enim fuga nemo iure!
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.  quaerat sequi . "
+                </p>
+                <div class="person">
+                    <img src="images/grealish.png">
+                    <h4>Jack Grealish</h4>
+                    <p>Talanted PlayMaker</p>
+                </div>
+            </div>
+
+            <div class="testi-box">
+                <p> " Lorem ipsum dolor sit amet consectetur adipisicing elit.  quaerat sequi dignissimos,
+                    veritatis itaque distinctio ! "
+                </p>
+                <div class="person">
+                    <img src="images/vardy.png">
+                    <h4>Jamie Vardy</h4>
+                    <p>Fox in the Box</p>
+                </div>
+            </div>
+
+            <div class="testi-box">
+                <p> " Lorem ipsum dolor sit amet consectetur adipisicing elit.  quaerat sequi dignissimos,
+                        veritatis itaque distinctio sit amet consectetur adipisicing elit ! "
+                </p>
+                <div class="person">
+                    <img src="images/son.png">
+                    <h4>Heung-Min Son</h4>
+                    <p>Inside Forward</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <!------------------------- Contact Us ----------------------------------->
+
+    <div class="contact">
+        <div class="overlay"></div>
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="left">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your E-mail">
+                        <input type="password" placeholder="Your Password">
+                    </div>
+                    <div class="right">
+                        <textarea placeholder="Type Your Issue Here"></textarea>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        
+    </div>
+
+    <!------------------------- Footer ----------------------------------->
+        <div class="footer">
+            <div class="left">
+                    Made With <span><i class="icofont-heart-alt"></i></span>
+                     By <a href="https://www.linkedin.com/in/mohamedfiky">M-Fiky</a>
+
+            </div>
+            <div class="right">
+                Copyright <span>&copy;2021</span>, All Right Reserved.
+            </div>
+        </div>
+
+     <!-------------------------  ----------------------------------->
+
+
+
+    
+  <script src="js/704.js"></script>
+</body>
+</html>
